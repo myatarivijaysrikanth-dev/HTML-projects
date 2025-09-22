@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+<body>
+     <header style="text-align: center;">
+        <h1><span style="color:Green;">360 Digrii</span><span style="color: rgb(62, 159, 198);"> Basket</span></h1>
+        <p><a href="index.html"><img src="home.png" height="20px" width="20px"></a>  |
+        <a href="fruits.html" ><img src="fruitslogo.jpg" height="25px" width="25px"></a>  |
+        <a href="flowers.html" ><img src="flowerslogo.jpg" height="25px" width="25px"></a>
+        <a href="#" style="text-align: right;">sign up</a>
+        <a href="signin.html" style="text-align: right;">sign in</a>
+        </p>
+    </header>
+    <hr>
+    <main>
+    <form action="www.360bigbasket.com" name="signup" method="post">
+        <table align="center" callpadding="20px" cellspacing="10px" bgcolor= #D3D3D3>
+            <caption><h2>Signup Page</h2></caption>
+            <tr>
+                <td>
+                    <label for="fullName">Full Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fullName" name="fullName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Mobile Number</label>
+                </td>
+                <td>
+                    <select name="country_code" id="number">
+                        <option value="USA">+1</option>
+                        <option value="UK">+44</option>
+                        <option value="INDIA">+91</option>
+                        <option value="Japan">+81</option>
+                        <option value="Australia">+61</option>
+                    </select>
+                    <input type="number" name="number" id="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">Pin Code</label>
+                </td>
+                <td>
+                     <input type="number" name="pinCode" id="pincode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">Userid</label>
+                </td>
+                <td>
+                    <input type="text" name="userId" id="username" pattern="[A-Za-z0-9]+" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="passcode">passcode</label>
+                </td>
+                <td>
+                    <input type="password" name="passcode" id="passcode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Register</button>
+                    <button type="reset">clear</button>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+    </form>
+</main>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <footer style="text-align: center;">
+        <p style="color: blue;">copyrights@360Digrii</p>
+    </footer>
+</body>
+</html>
