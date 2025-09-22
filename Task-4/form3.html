@@ -7,33 +7,35 @@
 </head>
 <body style="color: white;">
     <form action="server3" method="post" name="form3">
-        <table cellpadding="5px" cellspacing="5px" align="center" bgcolor="blue">
+        <table cellpadding="10px" cellspacing="10px" align="center" bgcolor="#0A2C52" style="color: white;">
+            <caption><h2 style="color: black;">Registration form</h2></caption>
             <thead bgcolor="orange">
                 <tr>
                     <th colspan="2" align="left" style="color: black;">Sign up
-                        <p><hr></p>
+                        <hr>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td><label for="fn">First Name</label></td>
-                    <td colspan="2"><input type="text" id="fn" placeholder="Enter First Name..."></td>
+                    <td ><input type="text" id="fn" placeholder="Enter First Name..."></td>
                 </tr>
                 <tr>
                     <td><label for="ln">Last Name</label></td>
-                    <td colspan="2"><input type="text" id="ln" placeholder="Enter Second Name..."></td>
+                    <td ><input type="text" id="ln" placeholder="Enter Second Name..."></td>
                 </tr>
                 <tr>
                     <td><label for="sn">Screen Name</label></td>
-                    <td colspan="2"><input type="text" id="sn" placeholder="Enter Screen Name..."></td>
+                    <td ><input type="text" id="sn" placeholder="Enter Screen Name..."></td>
                 </tr>
                 <tr>
                     <td>
                         <label for="dob">Date of Birth</label>
                     </td>
-                    <td colspan="2">
-                        <select name="month" id="dob">
+                    <td colspan="3">
+                        <select name="month" id="dob" style="width: 25%;">
+                            <option>Month</option>
                             <option value="Jan">January</option>
                             <option value="feb">February</option>
                             <option value="mar">March</option>
@@ -48,6 +50,7 @@
                             <option value="dec">December</option>
                         </select>
                         <select name="date" id="dob">
+                            <option >day</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -81,6 +84,7 @@
                             <option value="31">31</option>
                         </select>
                         <select name="year" id="dob">
+                            <option value="">Year</option>
                             <option value="1985">1985</option>
                             <option value="1986">1986</option>
                             <option value="1987">1987</option>
@@ -111,8 +115,9 @@
                 </tr>
                 <tr>
                     <td><label for="country">Country</label></td>
-                    <td colspan="2">
+                    <td colspan="4">
                         <select name="country" id="country">
+                            <option value="">Select your country</option>
                             <option value="USA">USA</option>
                             <option value="UK">UK</option>
                             <option value="INDIA">INDIA</option>
